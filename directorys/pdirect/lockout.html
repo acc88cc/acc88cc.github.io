@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login page</title>
+	<link rel="icon" type="image/x-icon" href="../images/tabimg/pass.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<form>
+    <label for="pswd">Enter password to enter: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<!--set password to cc-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "cc";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="directory.html";
+        }
+        else{
+            alert("INCORECT PLEASE LEAVE");
+        }
+    }
+</script>
+</body>
+</html>

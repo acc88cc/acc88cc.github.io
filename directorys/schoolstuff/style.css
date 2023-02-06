@@ -1,0 +1,14 @@
+.dropdown-content {
+	display: none;
+	box-shadow: 0px 8px 16px 0px;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.dropdown{
+	display: inline-block;
+}
+.dropdown-content a{
+	display:block;
+	padding: 12px 16px;
+}
